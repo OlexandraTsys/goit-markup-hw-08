@@ -1,0 +1,32 @@
+.logo-name {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: 93px;
+  }
+
+  &__first {
+    color: var(--accent-color);
+  }
+  &__second {
+    color: black;
+  }
+
+  &--accent {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: var(--second-color);
+  }
+}
