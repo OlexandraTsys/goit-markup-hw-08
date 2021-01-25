@@ -2,6 +2,7 @@
   position: relative;
   border-bottom: 1px solid #ececec;
   margin: 0 auto;
+  
 
   &__mobile {
     display: flex;
@@ -12,7 +13,7 @@
   &__container {
     padding-top: 16px;
     padding-bottom: 16px;
-    text-align: center;
+    align-items: center;
   }
 }
 
@@ -140,7 +141,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header__container {
+  .header-page__container {
     display: flex;
     align-items: center;
   }
@@ -195,7 +196,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .header__container {
+  .header-page__container {
     padding-top: 25px;
     padding-bottom: 25px;
   }
@@ -210,7 +211,7 @@
 
   .main-nav__link:hover,
   .contact__link:hover,
-  .main-navn__link:focus {
+  .main-nav__link:focus {
     color: var(--accent-color);
   }
 }

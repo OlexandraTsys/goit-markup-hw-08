@@ -270,7 +270,7 @@ body {
 .header-page__container {
   padding-top: 16px;
   padding-bottom: 16px;
-  text-align: center;
+  align-items: center;
 }
 
 .main-nav__link {
@@ -392,7 +392,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .header__container {
+  .header-page__container {
     display: flex;
     align-items: center;
   }
@@ -439,7 +439,7 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .header__container {
+  .header-page__container {
     padding-top: 25px;
     padding-bottom: 25px;
   }
@@ -451,7 +451,7 @@ body {
   }
   .main-nav__link:hover,
   .contact__link:hover,
-  .main-navn__link:focus {
+  .main-nav__link:focus {
     color: var(--accent-color);
   }
 }
@@ -479,7 +479,7 @@ body {
   transition: background-color var(--timing-fn), color var(--timing-fn), box-shadow var(--timing-fn);
 }
 
-.button-list__modal-btn:hover {
+.button-list__modal-btn:hover, .button-list__modal-btn:focus {
   color: var(--second-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -567,7 +567,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var(--third-color);
+  color: var(--title-text-color);
 }
 
 .product__img {
