@@ -96,7 +96,7 @@ body {
 }
 
 .section {
-  padding-top: 60px;
+  padding-top: 94px;
   padding-bottom: 60px;
 }
 
@@ -120,9 +120,9 @@ body {
 
 .title {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -221,6 +221,7 @@ body {
 @media screen and (min-width: 768px) {
   .social {
     margin: 0;
+    padding-top: 7px;
   }
 }
 
@@ -268,8 +269,8 @@ body {
 }
 
 .header-page__container {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   align-items: center;
 }
 
@@ -295,7 +296,7 @@ body {
   width: 100%;
   height: 4px;
   background-color: var(--accent-color);
-  bottom: 0;
+  bottom: 10px;
   border-radius: 2px;
   left: 50%;
   transform: translate(-50%);
@@ -385,6 +386,7 @@ body {
   }
   .main-nav__list {
     margin-bottom: 60px;
+    padding: 0px 0px 0px 40px;
   }
   .contact__item:not(:last-child) {
     margin-bottom: 16px;
@@ -395,6 +397,7 @@ body {
   .header-page__container {
     display: flex;
     align-items: center;
+    height: 60px;
   }
   .main-nav {
     display: flex;

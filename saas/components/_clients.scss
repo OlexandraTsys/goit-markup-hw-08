@@ -1,6 +1,7 @@
 .clients {
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 60px;
+  
 
   &__list {
     display: flex;
@@ -48,8 +49,9 @@
 
 @media screen and (min-width: 1200px) {
   .clients {
-    padding-top: 94px;
+    padding-top: 188px;
     padding-bottom: 94px;
+    
 
     &__list {
       display: flex;
